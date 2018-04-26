@@ -1,16 +1,14 @@
-.mainPanel{
+.panel{
     clear:both;
     margin:0 auto;
     padding: 2%;
-      height: auto !important;
-      position: relative;
-      width: 300px !important;
+    position: relative;
+    width: 300px;
     background-color : gray;
     overflow:hidden;
   }
   
-  .innerPanelTop{
-    /* margin : 2% 10%  */;
+  .panelTop{
     float:left;
     height: auto;
     position:relative;
@@ -18,7 +16,7 @@
     background-color : black;
   }
   
-  .innerPanelBottom{
+  .panelBottom{
     margin-top:5%;
     clear:both;
     float:left;
@@ -28,15 +26,15 @@
   }
   
   .elevator{
-    height:auto !important;
-    width:100% !important;
+    height:auto;
+    width:100%;
     position:relative;
     float:left;
     background-color:transparent;
     margin:0 auto;
     overflow:hidden;
   }
-  .mainBody{
+  .main{
    margin:0 auto;
     height:100%;
     width:100%;
@@ -80,10 +78,10 @@
   
   .floor{
     margin: 5% 12%;
-   float:left;
+    float:left;
     font-family: "Myriad Pro", verdana, sans-serif;
     position:relative;
-  font-size: 3.5em;
+    font-size: 3.5em;
     color:black;
     border-radius: 100%;
     width:70px;
@@ -111,7 +109,7 @@
     background-color:orange;
   } */
   
-  .mainPanel {
+  .panel {
     margin-top: 200px;
   }
   
