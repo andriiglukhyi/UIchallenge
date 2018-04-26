@@ -1,0 +1,117 @@
+.mainPanel{
+    clear:both;
+    margin:0 auto;
+    padding: 2%;
+      height: auto !important;
+      position: relative;
+      width: 300px !important;
+    background-color : gray;
+    overflow:hidden;
+  }
+  
+  .innerPanelTop{
+    /* margin : 2% 10%  */;
+    float:left;
+    height: auto;
+    position:relative;
+    width:100%;
+    background-color : black;
+  }
+  
+  .innerPanelBottom{
+    margin-top:5%;
+    clear:both;
+    float:left;
+    height:auto;
+    position : relative;
+    width:100%;
+  }
+  
+  .elevator{
+    height:auto !important;
+    width:100% !important;
+    position:relative;
+    float:left;
+    background-color:transparent;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .mainBody{
+   margin:0 auto;
+    height:100%;
+    width:100%;
+    position:relative;
+  }
+  
+  .number{
+    margin-top: 10px;
+    margin-left:30px;
+    float:left;
+    font-family: "Myriad Pro", verdana, sans-serif;
+    position:absolute;
+  font-size: 11em;
+    color:white;
+    height:200px;
+    width:40%;
+    line-height:200px;
+    text-align:center;
+    background-color:transparent;
+    on-click: background
+  }
+  .up{
+    float:right;
+    position:relative;
+    background-color:green;
+    height:80px;
+    width:30%;
+    margin:6%;
+    cursor:pointer;
+  }
+  .down{
+    clear:right;
+   float:right;
+    position:relative;
+    background-color:red;
+    height:80px;
+    width:30%; 
+    margin:6%;
+    cursor:pointer;
+  }
+  
+  .floor{
+    margin: 5% 12%;
+   float:left;
+    font-family: "Myriad Pro", verdana, sans-serif;
+    position:relative;
+  font-size: 3.5em;
+    color:black;
+    border-radius: 100%;
+    width:70px;
+    border:2px solid black;
+    background-color:white;
+    text-align:center;
+    cursor:pointer;
+  }
+  .movingFloor{
+    height: 20%;
+    width:50%;
+  }
+  
+  /* #floorOne{
+    background-color:pink;
+    
+  }
+  #floorTwo{
+    background-color:violet;
+  }
+  #floorThree{
+    background-color:lightgreen;
+  }
+  #floorFour{
+    background-color:orange;
+  } */
+  
+  .mainPanel {
+    margin-top: 200px;
+  }
+  
